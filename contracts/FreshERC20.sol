@@ -7,7 +7,7 @@ contract FreshERC20 is IFreshERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Fresh LPs';
-    string public constant symbol = 'Cake-LP';
+    string public constant symbol = 'Fresh-LP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
